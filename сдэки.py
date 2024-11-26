@@ -2,12 +2,12 @@ import telebot
 import requests
 import sqlite3
 
-API_TOKEN = '7246772852:AAEu1tZnBGw5mXHDJ8nskWSqud9AUqOLAJ8'
+API_TOKEN = '123'
 CDEK_AUTH_URL = 'https://api.cdek.ru/v2/oauth/token'
 CDEK_CITY_URL = 'https://api.cdek.ru/v2/location/cities'
 CDEK_PVZ_URL = 'https://api.cdek.ru/v2/deliverypoints'
-CDEK_CLIENT_ID = 'Do41WL6PEhYlQojaH0MfueYDHpiukiMR'
-CDEK_CLIENT_SECRET = 'kaWV5VkdNyWrJmWIvgvvePuGjPqzaX1Y'
+CDEK_CLIENT_ID = '123'
+CDEK_CLIENT_SECRET = '123'
 user_ids = set()  # Множество для хранения ID всех пользователей
 admin_id = 1543492175  # Замените на ваш ID (узнайте его через бота)
 
