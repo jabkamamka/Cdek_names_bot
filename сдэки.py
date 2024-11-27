@@ -9,7 +9,7 @@ CDEK_PVZ_URL = 'https://api.cdek.ru/v2/deliverypoints'
 CDEK_CLIENT_ID = '123'
 CDEK_CLIENT_SECRET = '123'
 user_ids = set()  # Множество для хранения ID всех пользователей
-admin_id = 1543492175  # Замените на ваш ID (узнайте его через бота)
+admin_id = 123  # Замените на ваш ID (узнайте его через бота)
 
 # Инициализация базы данных
 conn = sqlite3.connect('users.db', check_same_thread=False)
